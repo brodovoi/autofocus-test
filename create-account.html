@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crate account</title>
+</head>
+<body>
+    <form method="POST"
+    class="trial-popup__checkform"
+    novalidate
+    data-sign-form
+    data-price-form
+    data-plan-form
+>
+  <div class="email-autocomplete-dropdown" data-autocomplete-email>
+      <label class="trial-popup__form-label" for="email">Email address</label>
+      <input class="trial-popup__form-input"
+             type="email"
+             name="email"
+             id="email"
+             placeholder="Enter your valid email'"
+             data-validate-field-up
+             data-plan-form-email
+             data-email-hash
+             data-autocomplete-email-input
+      >
+  </div>
+  <button type="submit" class="btn btn__blue" data-submit>Continue</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
